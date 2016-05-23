@@ -1,0 +1,66 @@
+.jumbotron {
+    background-image: url("../img/back.jpg");
+    background-size: cover;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+}
+
+.ui-autocomplete {
+    max-height: 250px;
+    overflow-y: auto;
+    /* prevent horizontal scrollbar */
+    overflow-x: hidden;
+  }
+  
+.ui-autocomplete-loading {
+    background: white url("../img/ui-anim_basic_16x16.gif") right center no-repeat;
+}
+
+div.description {
+    margin: 20px 0 0 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+img.poster_img {
+    float: left;
+    margin-right: 20px;
+}
+
+.movie_info {
+    font-weight: bold;
+    color: grey;
+}
+
+.star_container {
+    display: inline;
+    vertical-align: top;
+    float: none;
+}
+.star_container img {
+    vertical-align: top;
+    float: none;
+}
+
+.timeline_infodiv {
+    text-align: center;
+}
+
+#result {
+    font-size: 28px;
+    font-weight: bold;
+    color: #2F71A9;
+    text-align: center;
+}
+#info {
+    font-size: 18px;
+    font-weight: bold;
+    color: #2F71A9;
+    text-align: center; 
+}
+#advanced_info {
+    text-align: center; 
+}
